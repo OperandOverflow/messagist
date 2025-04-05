@@ -16,47 +16,12 @@ MessagIST is an end-to-end encrypted message app built for the IST community. De
 
 ## Contents
 
+-   [Screenshots](#screenshots)
 -   [Setting up](#setting-up)
 -   [Deployment](#deployment)
 -   [Acknowledgements](#acknowledgements)
--   [Screenshots](#screenshots)
 -   [Feedback](#feedback)
 -   [License](#license)
-
-## Setting up
-
-### Prerequisites
-
-- [Rust and Cargo](https://www.rust-lang.org/tools/install) 
-  
-- [Postgres 17](https://www.postgresql.org/download/)
-
-- [Docker](https://docs.docker.com/engine/install/) (Optional for deployment)
-
-### Steps
-
-1. Clone the repository
-    ```sh
-    git clone https://github.com/OperandOverflow/messagist.git
-    cd messagist
-    ```
-
-2. Build project
-    ```sh
-    rustup default stable
-    cargo build
-    ```
-
-3. Configure database
-    ##### Linux
-    (Under construction)
-
-    ##### Windows
-    (Under construction)
-
-## Deployment
-(Under construction)
-
 
 ## Screenshots
 
@@ -108,6 +73,40 @@ Below are some screenshots of the application in action:
             </p>
         </li>
 </details>
+
+## Setting up
+
+### Prerequisites
+
+- [Rust and Cargo](https://www.rust-lang.org/tools/install) 
+  
+- [Postgres 17](https://www.postgresql.org/download/)
+
+- [Docker](https://docs.docker.com/engine/install/) (Optional for deployment)
+
+### Steps
+
+1. Clone the repository
+    ```sh
+    git clone https://github.com/OperandOverflow/messagist.git
+    cd messagist
+    ```
+
+2. Build project
+    ```sh
+    rustup default stable
+    cargo build
+    ```
+
+3. Configure database
+    ##### Linux
+    (Under construction)
+
+    ##### Windows
+    (Under construction)
+
+## Deployment
+(Under construction)
 
 ## Acknowledgements
 
